@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.header {
+    background: rgba(253, 49, 49, 0.219);
+    padding: 16px 32px;
+}
+
+.header .title {
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(253, 49, 49, 0.281);
+}
+
+.container {
+    padding: 32px;
+}
+
+.section {
+    padding: 32px;
+}
+
+.section-title {
+    text-align: center;
+    padding: 42px 0px;
+}
+
+.section-title h1 {
+    margin-bottom: 8px;
+}
+
+.section-title span {
+    display: inline-block;
+    background-color: white;
+    height: 6px;
+    width: 100px;
+    border-radius: 16px;
+}
+
+.card {
+    border: 2px solid rgba(253, 49, 49, 0.281);
+    border-radius: 16px;
+    padding: 24px 32px;
+}
+
+/* theme*/
+hr{
+    border-color: rgba(253, 49, 49, 0.219);
+}
+
+/* buttons styles*/
+.btn{
+ padding: 12px 24px;   
+ border: 0;
+ border-radius: 0%;
+}
+
+.btn.btn-primary{
+    color: white;
+    background: rgba(253, 49, 49, 0.281);
+
+}
+
+/* paddings */
+
+.p-5{
+    padding: 32px;
+}
+
+/* text styles*/
+.txt-white {
+    color: white;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-all-caps {
+    text-transform: uppercase;
+}
+
+.txt-green {
+    color: green;
+}
+.txt-primary{
+    color: rgba(253, 49, 49, 0.281);
+}
+
+.row {
+    display: flex;
+    padding: 0;
+}
+
+.row .col-3 {
+    width: 33.34%;
+}
+
+.row .col-4 {
+    width: 33.34%;
+}
+
+.row .col-5 {
+    width: 41.66%;
+}
+
+.row .col-6 {
+    width: 50%;
+}
+
+.row .col-7 {
+    width: 58.34%;
+}
+
+.row .col-8 {
+    width: 66.66%;
+}
